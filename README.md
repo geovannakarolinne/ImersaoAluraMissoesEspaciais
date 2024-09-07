@@ -39,18 +39,3 @@ Quer ajudar a tornar essa aplicação ainda melhor? Se você é um desenvolvedor
 * **Integração com outras APIs:** Queremos conectar nossa aplicação com outras fontes de dados para oferecer informações ainda mais completas.
 
 **Agradecemos a sua visita!**
-
-**[Seu nome]**
-
-**[Seu link para o repositório]**
-
-**[Seu email]**
-
-**Observações:**
-
-* **Adapte o README:** Personalize o README com informações mais específicas sobre sua aplicação, como o nome do projeto, as tecnologias utilizadas e os próximos passos.
-* **Adicione imagens:** Use imagens para ilustrar seu README e torná-lo mais visualmente atraente.
-* **Seja claro e conciso:** Use uma linguagem simples e direta para que qualquer pessoa possa entender o que sua aplicação faz.
-* **Convide para colaborar:** Incentive outros desenvolvedores a contribuir com seu projeto.
-
-**Com esse README, você terá um guia completo e informativo para sua aplicação no GitHub.**
