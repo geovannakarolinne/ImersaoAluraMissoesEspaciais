@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!-- metadados: nao aparece no corpo da pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Launch</title> <!-- Titulo da aba -->
+</head>
+
+<body>
+    <header> <!-- cabeçalho -->
+        <div class="logo-conteudo">
+            <div class="cabecalho-imagem">
+                <img src="lauch_fundo.jpg" alt="Descrição da imagem">
+            </div>
+    
+            <div class="logo-texto">
+                Missões Espaciais
+            </div>
+        </div>
+    </header>
+    
+        <main><!-- principal -->
+            <div class="corpo">
+                <div class="missao">
+                    <h1 class="missao-titulo">Sobre nós</h1>
+                    <p class="missao-texto">Somos entusiastas do espaço e fascinados por foguetes. Reunimos em um único lugar todas as missões espaciais realizadas por diversos países, oferecendo informações detalhadas para os que compartilham dessa paixão. Basta digitar o nome do foguete ou o ano de lançamento desejado e descubra as missões e suas histórias emocionantes.</p>
+                </div>
+                <div class="missao">
+                    <h1 class="missao-titulo">Base de Dados</h1>
+                    <a href="#" onclick="exibirTudo()">Clique aqui para ter acesso a base completa.</a>
+                </div>
+            </div>
+
+            <section>
+                <input type="text" placeholder="Digite o nome ou o ano de lançamento da missão/foguete" id="campo-pesquisa">
+
+                <button onclick="pesquisar()"> Pesquisar </button>
+            </section>
+
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+            </section>
+        </main>
+
+        <footer>
+            <p>2024 - Missões Espaciais. Todos os direitos reservados.</p>
+            <p>Entre em contato pelo email: lauch@aplication.br</p>
+        </footer> 
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
